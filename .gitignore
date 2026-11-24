@@ -1,0 +1,43 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Кэш инструментов тестирования и анализа
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Результаты вычислений
+results/
+*.log
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Локальные настройки VS Code
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Материалы преподавателя
+TEACHER.md
+VERIFICATION.md
